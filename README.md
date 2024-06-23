@@ -6,7 +6,7 @@ Ce projet a été développé dans le cadre du TP de 5BIM pour mettre en pratiqu
 
 ## Fonctionnalités
 
-- Détection en temps réel d'ordinateurs portables et de souris avec le modele pre entrainer YOLO8
+- Détection d'ordinateurs portables , de souris et d'autres objets avec le modele pre entrainer YOLO8
 - Visualisation delimiter par un rectangle des détections faites
 - Affichage des label et de la confiance pour chaque objet détecté
 - Prise en charge de flux vidéo en direct (webcam) ou de fichiers vidéo préenregistrés
@@ -68,6 +68,7 @@ Les fichiers que vous trouverait sont :
 - 5BIM_TP.py # Script principal pour la détection d'objets
 - requirements.txt # Liste des dépendances du projet
 - README.md # Documentation du projet
+- img1.png et img2.png les images d'exemple du fonctionement du programme
 
 Dans le fichier 5BIM_TP.py se trouve :
 
@@ -75,7 +76,10 @@ Dans le fichier 5BIM_TP.py se trouve :
 
 - model : le modèle d'entrainement pour la détection d'objets
 - colors : les couleurs appliquées aux rectangles des objets détecté
-  et les methodes :
+  - rose : pour la souris
+  - violet : pour le laptop
+  - vert :pour les autres objets
+    Et les methodes :
 - `__init__  ` qui initialise le modèle YOLO(yolov8s) et définit les couleurs pour les différents objets à détecter
 
 - `detect_and_draw ` qui prend une frame en entrée,détecte les objets ,dessine les rectangles et les labels sur l'image et retourne le frame annotée
@@ -92,12 +96,15 @@ Dans le fichier 5BIM_TP.py se trouve :
 
 - Python 3.7+( la version utiliser pour ce tp est 3.10.11 )
 - OpenCV 4.10.0.84
-- Ultralytics
+- Ultralytics : bibliothèque Python qui sert à utiliser les modèles YOLO
 
 ## Exemple
 
 <img src="img1.png" width="200">
+<img src="img2.png" width="200">
 
 # Auteur
 
 LEANDRA MAKAMTE
+
+- NB : le lancement du programme peut mettre un peu de temps soyez un peu patient
