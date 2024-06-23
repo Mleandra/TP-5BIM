@@ -90,8 +90,14 @@ Dans le fichier 5BIM_TP.py se trouve :
 
 ## Dependance
 
-Python 3.7+( la version utiliser pour ce tp est 3.10.11 )
-OpenCV 4.10.0.84
-Ultralytics
+- Python 3.7+( la version utiliser pour ce tp est 3.10.11 )
+- OpenCV 4.10.0.84
+- Ultralytics
 
 ## Exemple
+
+<img src="img1.png" width="200">
+
+# Auteur
+
+LEANDRA MAKAMTE
