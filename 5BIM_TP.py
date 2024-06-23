@@ -83,4 +83,4 @@ if __name__ == "__main__":
     #video = '../ma_Video .mp4' si vous voulez utiliser une video sur votre ordinateur
     detecteur = YoloObjectDetection() # creation de l'objet yoloobjectdetection (on instancie la classe)
 
-    detecteur.detect_objects(video)#lancement de la detection
+    detecteur.detect_objects(video) # lancement de la detection
