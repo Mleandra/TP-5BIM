@@ -13,8 +13,7 @@ Ce projet a été développé dans le cadre du TP de 5BIM pour mettre en pratiqu
 
 ## pré-requis
 
-Pour lancer ce projet , il faut avoir dans votre ordinateur `python` installer , une `webcam` fontionel et une connection internet
-pour l'installation des dependances.
+Pour lancer ce projet , il faut avoir dans votre ordinateur `python` et `git` installer , une `webcam` fontionel et une connection internet pour l'installation des dependances.
 
 ## Installation
 
@@ -26,6 +25,7 @@ Dans votre terminal lancez les commandes suivantes:
    git clone https://github.com/Mleandra/TP-5BIM.git
    ```
 
+   Ou telechager la version Zip
    Deplacez vous dans le repertoire creer
 
 ```bash
@@ -68,7 +68,7 @@ Les fichiers que vous trouverait sont :
 - 5BIM_TP.py # Script principal pour la détection d'objets
 - requirements.txt # Liste des dépendances du projet
 - README.md # Documentation du projet
-- img1.png et img2.png les images d'exemple du fonctionement du programme
+- le dossiers images contenant img1.png et img2.png les images d'exemple du fonctionement du programme
 
 Dans le fichier 5BIM_TP.py se trouve :
 
@@ -100,11 +100,13 @@ Dans le fichier 5BIM_TP.py se trouve :
 
 ## Exemple
 
-<img src="img1.png" width="200">
-<img src="img2.png" width="200">
+<img src="images\img1.png" width="200">
+<img src="images\img2.png" width="200">
 
-# Auteur
+## Auteur
 
 LEANDRA MAKAMTE
 
-- NB : le lancement du programme peut mettre un peu de temps soyez un peu patient
+##
+
+- NB : Le lancement du programme peut mettre un peu de temps, soyez un peu patient. Pour la détection, la souris doit être déposée sur une table, par exemple pour que ça puisse être reconnu comme une souris
